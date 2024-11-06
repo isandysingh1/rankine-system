@@ -59,7 +59,6 @@ const Projects = () => {
                 <h6 className="text-primary mt-3">{project.category}</h6>
                 <h5>{project.title}</h5>
                 <p className="text-muted">{project.location}</p>
-                <p className="text-muted"><b>{project.text}</b></p>
               </div>
             ))}
           </div>

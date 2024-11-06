@@ -731,4 +731,6 @@ iconify-icon.quote {
 .nav-link {
   cursor: pointer;
 }
-
+#about-us {
+  padding: 120px 0;
+}

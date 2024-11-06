@@ -8,7 +8,6 @@ import Services from './components/Services';
 import Feature from './components/Feature';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Info from './components/Info';
 import GoToTop from './components/GoToTop';
 
 function App() {
