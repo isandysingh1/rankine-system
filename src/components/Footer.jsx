@@ -17,22 +17,22 @@ const Footer = () => {
             </ul>
             <ul className="social-links d-flex flex-wrap list-unstyled mt-4">
               <li className="social me-4">
-                <a href="#">
+                <a href="https://www.facebook.com/rankinesystems">
                   <iconify-icon icon="mdi:facebook" width="16" height="16"></iconify-icon>
                 </a>
               </li>
               <li className="social me-4">
-                <a href="#">
+                <a href="https://x.com/rankinesystems">
                   <iconify-icon icon="mdi:twitter" width="16" height="16"></iconify-icon>
                 </a>
               </li>
               <li className="social me-4">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/rankine-systems/">
                   <iconify-icon icon="mdi:linkedin" width="16" height="16"></iconify-icon>
                 </a>
               </li>
               <li className="social me-4">
-                <a href="#">
+                <a href="https://www.instagram.com/rankinesystems/">
                   <iconify-icon icon="mdi:instagram" width="16" height="16"></iconify-icon>
                 </a>
               </li>
@@ -41,11 +41,11 @@ const Footer = () => {
           <div className="col-md-6 col-lg-3 mb-3 mb-lg-0">
             <h5 className="py-3">Quick links</h5>
             <ul className="nav flex-column">
-              <li className="nav-item"><a href="#" className="text-uppercase p-0"> About us </a></li>
-              <li className="nav-item"><a href="#" className="text-uppercase p-0"> Our Services </a></li>
-              <li className="nav-item"><a href="#" className="text-uppercase p-0"> Privacy Policy</a></li>
-              <li className="nav-item"><a href="#" className="text-uppercase p-0"> Contact us </a></li>
-              <li className="nav-item"><a href="#" className="text-uppercase p-0"> Support </a></li>
+              <li className="nav-item"><p className="text-uppercase p-0"> About us </p></li>
+              <li className="nav-item"><p className="text-uppercase p-0"> Our Services </p></li>
+              <li className="nav-item"><p className="text-uppercase p-0"> Privacy Policy</p></li>
+              <li className="nav-item"><p className="text-uppercase p-0"> Contact us </p></li>
+              <li className="nav-item"><p className="text-uppercase p-0"> Support </p></li>
             </ul>
           </div>
           <div className="col-md-6 col-lg-3 mb-3 mb-lg-0">

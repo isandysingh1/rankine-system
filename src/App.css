@@ -734,3 +734,7 @@ iconify-icon.quote {
 #about-us {
   padding: 120px 0;
 }
+
+.nav-link:hover {
+  color: var(--primary-color);
+}

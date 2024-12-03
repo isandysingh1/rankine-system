@@ -38,36 +38,25 @@ const Header = ({ heroRef, aboutRef, servicesRef, featureRef, projectsRef, conta
               <div className="offcanvas-body align-items-center justify-content-end">
                 <ul className="navbar-nav align-items-center mb-2 mb-lg-0">
                   <li className="nav-item px-3">
-                    <a className="nav-link active p-0" aria-current="page" onClick={() => handleScroll(heroRef)}>Home</a>
+                    <button className="nav-link p-0" aria-current="page" onClick={() => handleScroll(heroRef)}>Home</button>
                   </li>
                   <li className="nav-item px-3">
-                    <a className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(aboutRef)}>About</a>
+                    <button className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(aboutRef)}>About</button>
                   </li>
                   <li className="nav-item px-3">
-                    <a className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(servicesRef)}>Services</a>
+                    <button className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(servicesRef)}>Services</button>
                   </li>
                   <li className="nav-item px-3">
-                    <a className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(featureRef)}>Features</a>
+                    <button className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(featureRef)}>Features</button>
                   </li>
                   <li className="nav-item px-3">
-                    <a className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(contactRef)}>Contact</a>
+                    <button className="nav-link p-0 cursor-pointer" onClick={() => handleScroll(contactRef)}>Contact</button>
                   </li>
                   <li className="nav-item px-3 dropdown">
-                    <a className="nav-link p-0 dropdown-toggle text-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                    <button className="nav-link p-0 dropdown-toggle text-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</button>
                     <ul className="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
-                      {/* <li className="py-1"><a href="about.html" className="dropdown-item text-uppercase">About <span className="badge bg-secondary">Pro</span></a></li>
-                      <li className="py-1"><a href="blog.html" className="dropdown-item text-uppercase">Blog <span className="badge bg-secondary">Pro</span></a></li>
-                      <li className="py-1"><a href="blog-single.html" className="dropdown-item text-uppercase">Blog-Single <span className="badge bg-secondary">Pro</span></a></li> */}
-                      <li className="py-1"><a href="quote.html" className="dropdown-item text-uppercase">quote <span className="badge bg-secondary">Pro</span></a></li>
-                      {/* <li className="py-1"><a href="services.html" className="dropdown-item text-uppercase">Services <span className="badge bg-secondary">Pro</span></a></li> */}
-                      {/* <li className="py-1"><a href="services-single.html" className="dropdown-item text-uppercase">Service-Single <span className="badge bg-secondary">Pro</span></a></li> */}
-                      <li className="py-1"><a href="project.html" className="dropdown-item text-uppercase" onClick={() => handleScroll(projectsRef)}>Project <span className="badge bg-secondary">Pro</span></a></li>
-                      {/* <li className="py-1"><a href="project-single.html" className="dropdown-item text-uppercase">Project-Single <span className="badge bg-secondary">Pro</span></a></li> */}
-                      {/* <li className="py-1"><a href="pricing.html" className="dropdown-item text-uppercase">Pricing <span className="badge bg-secondary">Pro</span></a></li>
-                      <li className="py-1"><a href="contact.html" className="dropdown-item text-uppercase">Contact <span className="badge bg-secondary">Pro</span></a></li> */}
-                      <li className="py-1"><a href="team.html" className="dropdown-item text-uppercase">Our Team <span className="badge bg-secondary">Pro</span></a></li>
-                      {/* <li className="py-1"><a href="review.html" className="dropdown-item text-uppercase">Reviews <span className="badge bg-secondary">Pro</span></a></li>
-                      <li className="py-1"><a href="faq.html" className="dropdown-item text-uppercase">FAQs <span className="badge bg-secondary">Pro</span></a></li> */}
+                      <li className="py-1"><button href="project.html" className="dropdown-item text-uppercase" onClick={() => handleScroll(projectsRef)}>Project <span className="badge bg-secondary">Pro</span></button></li>
+                      <li className="py-1"><button href="team.html" className="dropdown-item text-uppercase" >Our Team <span className="badge bg-secondary">Pro</span></button></li>
                     </ul>
                   </li>
                 </ul>
